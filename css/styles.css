@@ -108,7 +108,7 @@ main {
 
 .home article .statement {
   padding: 130px 15px 0 15px;
-  width: 47%;
+  width: 40%;
   font-size: larger;
   border: 1px solid red;
   background-color: rgb(236, 232, 232);
@@ -128,7 +128,7 @@ main {
 
 .home section {
   display: flex;
-  width: 93%;
+  width: 95%;
   justify-content: space-between;
   margin: auto;
 }
