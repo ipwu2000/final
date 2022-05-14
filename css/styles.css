@@ -86,16 +86,12 @@ nav ul {
 nav ul li a {
   color: white;
   text-decoration: none;
+  /* make whole li clickable */
   display: block;
 }
 
 nav ul li.active a {
   font-weight: bold;
-}
-
-nav ul li a img {
-  width: 120%;
-  color: white;
 }
 
 main {
@@ -115,6 +111,7 @@ main {
   width: 47%;
   font-size: larger;
   border: 1px solid red;
+  background-color: rgb(236, 232, 232);
 }
 
 .home article .side {
