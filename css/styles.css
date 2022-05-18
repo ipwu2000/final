@@ -4,11 +4,8 @@
   padding: 0;
 }
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 div.container {
+  font-family: Arial, Helvetica, sans-serif;
   border: 5px solid #006D77;
   width: 98%;
   margin: 0 auto;
@@ -23,18 +20,18 @@ header {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-div.logo-title {
+header .logo-title {
   width: 100%;
   margin: 5px 0 0 10px;
 }
 
-.social-links ul {
+header .social-links ul {
   display:flex;
   width: 220px;
   justify-content: space-around;
 }
 
-.social-links ul li {
+header .social-links ul li {
   display:flex;
 }
 
@@ -95,6 +92,7 @@ main {
   font-size: large;
 }
 
+/* Home page */
 .home article {
   clear: both;
   display: flex;
@@ -149,7 +147,7 @@ div.digital-art, div.drawings, div.sketches {
   padding-bottom: 5px;
 }
 
-/* Gallery */
+/* Gallery page */
 .gallery h4 {
   text-align: center;
   margin: 5px;
@@ -180,7 +178,7 @@ div.image4 {
   width: 24%;
 }
 
-/* News & Events */
+/* News & Events page */
 .news h3, .events h3 {
   padding: 8px;
   margin-bottom: 8px;
@@ -216,7 +214,7 @@ div.image4 {
   margin: auto;
 }
 
-/* About */
+/* About page */
 .about .statement h3 {
   padding: 8px;
   margin-bottom: 8px;
@@ -252,7 +250,7 @@ div.image4 {
   margin: auto;
 }
 
-/* Contact */
+/* Contact page */
 .contact .form-title {
   display: flex;
   width: 55%;
