@@ -26,13 +26,13 @@ header .logo-title {
 }
 
 header .social-links ul {
-  display:flex;
+  display: flex;
   width: 220px;
   justify-content: space-around;
 }
 
 header .social-links ul li {
-  display:flex;
+  display: flex;
 }
 
 nav {
@@ -41,11 +41,11 @@ nav {
 }
 
 nav ul {
-  display:flex;
+  display: flex;
 }
 
 nav ul li {
-  display:inline-flex;
+  display: inline-flex;
   justify-content: space-around;
   line-height: 2em;
   flex-grow: 2;
@@ -136,7 +136,9 @@ main {
   border: 2px solid red;
 }
 
-div.digital-art, div.drawings, div.sketches {
+div.digital-art,
+div.drawings,
+div.sketches {
   width: 30%;
 }
 
@@ -153,7 +155,7 @@ div.digital-art, div.drawings, div.sketches {
   margin: 5px;
   margin-top: 20px;
   padding: 2px 5px;
-  text-decoration:2px underline red;
+  text-decoration: 2px underline red;
 }
 
 .gallery section {
@@ -179,7 +181,8 @@ div.image4 {
 }
 
 /* News & Events page */
-.news h3, .events h3 {
+.news h3,
+.events h3 {
   padding: 8px;
   margin-bottom: 8px;
   line-height: 1em;
@@ -191,7 +194,8 @@ div.image4 {
   padding: 3px;
 }
 
-.news details p, .events details p {
+.news details p,
+.events details p {
   padding: 12px;
 }
 
@@ -209,8 +213,8 @@ div.image4 {
   margin: 60px auto;
 }
 
-.news-events-aside img{
-  width:80%;
+.news-events-aside img {
+  width: 80%;
   margin: auto;
 }
 
@@ -221,6 +225,7 @@ div.image4 {
   line-height: 1em;
   border: 1px solid red;
 }
+
 .about .statement h4 {
   padding-left: 10px;
   padding-bottom: 5px;
@@ -245,8 +250,8 @@ div.image4 {
   margin: 80px auto;
 }
 
-.about-aside img{
-  width:80%;
+.about-aside img {
+  width: 80%;
   margin: auto;
 }
 
@@ -263,7 +268,9 @@ div.image4 {
   text-decoration: underline;
 }
 
-input[type=text], select, textarea {
+input[type=text],
+select,
+textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -304,7 +311,7 @@ input[type=submit]:hover {
   padding-top: 80px;
 }
 
-.contact-aside img{
+.contact-aside img {
   width: 80%;
   margin: auto;
 }
@@ -329,7 +336,7 @@ footer {
   .social-links ul {
     width: 190px;
   }
-  
+
   main {
     font-size: medium;
   }
@@ -343,7 +350,7 @@ footer {
 @media screen and (max-width: 800px) {
   h1 {
     font-size: large;
-  }  
+  }
 
   .social-links ul {
     width: 180px;
@@ -358,7 +365,7 @@ footer {
     display: block;
     padding-top: 0;
   }
-  
+
   .home article .statement {
     padding: 10px;
   }
@@ -373,7 +380,9 @@ footer {
     margin: auto;
   }
 
-  div.digital-art, div.drawings, div.sketches {
+  div.digital-art,
+  div.drawings,
+  div.sketches {
     width: 100%;
     margin: 5px;
   }
@@ -408,7 +417,7 @@ footer {
     width: 100%;
     margin: 5px;
   }
-  
+
   .contact-aside {
     display: none;
   }
@@ -424,12 +433,15 @@ footer {
     font-size: small;
   }
 
-  .home, .gallery {
+  .home,
+  .gallery {
     width: 90%;
     margin-left: 35px;
   }
 
-  .news-events, .about, .contact {
+  .news-events,
+  .about,
+  .contact {
     width: 85%;
     margin-left: 45px;
   }
@@ -438,26 +450,28 @@ footer {
     position: fixed;
     left: 10px;
   }
+
   nav ul {
     flex-direction: column;
   }
-  nav ul li{
+
+  nav ul li {
     width: 40px;
     line-height: 1.2em;
     border: 1px solid grey;
   }
 
   nav ul li:last-child {
-    border-right:1px solid grey;
+    border-right: 1px solid grey;
   }
 
-  nav ul li a p{
+  nav ul li a p {
     display: none;
   }
 
-  nav ul li a img{
+  nav ul li a img {
     display: inline;
-    width:100%;
+    width: 100%;
   }
 
   .gallery section {
